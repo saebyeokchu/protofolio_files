@@ -1,4 +1,4 @@
-# portofoilos list
+# portofolio list
 
 Hi, its such a honor for you visiting my github! You can take your time for a look. I am Web,App,System devloper and database architecture. Yeah i did a lot.
 But the most loved job for me is structuring database for system!
