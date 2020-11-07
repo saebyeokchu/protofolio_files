@@ -1,7 +1,9 @@
 # portofoilos list
 
 > The lists which written below are my projects that might be help you understand what can i do for you
-> 
+> Currently, i'm making my homepage to version of Ruby. You can see detail of my work over there.
+> I will update the address as soon as after i finish the reparing.
+> Love you, and have a nice day 😘
 
 ### 1. movie_reservation_system
 * this project created with pure Angular
@@ -19,9 +21,27 @@
 * made in 2017.12
 * depecreted in 2018.07
 
-### 3. Build a computer system for education company
+
+### 3. Research for finding shortest path using parallel algorithm with massive amount of data
+* this project created using C++
+* do tons of reaserch for parallel and shortest path algorithm
+* write a paper for it
+* 2 resercher participated
+* role as student resercher
+* made in 2019.02
+
+
+### 4. Build a computer system for education company
 * this project created using PHP codeigniter
 * include homepage and intranet
 * 2 developers participated
 * role as main developer
 * made in 2019.12
+
+
+### 5. Laundry app for O2O service
+* this project created using Xamarin Android
+* include real time service function
+* 1 developers participated
+* role as main developer
+* made in 2020.11
