@@ -9,9 +9,8 @@ Anyway enjoy your journey!
 > The lists which written below are my projects that might be help you understand what can i do for you
 > Currently, i'm making my homepage to version of Ruby. You can see detail of my work over there.
 > I will update the address as soon as after i finish the reparing.
-> Love you, and have a nice day 😘
-
-### 1. movie_reservation_system
+> Love you, and have a nice day )
+### 1. movie_reservation_system(HGU-caferia-room-reserve-system-master)
 * this project created with pure Angular
 * you can reserve your seat for local musical which held in small community.
 * 3 developers participated
@@ -28,7 +27,7 @@ Anyway enjoy your journey!
 * depecreted in 2018.07
 
 
-### 3. Research for finding shortest path using parallel algorithm with massive amount of data
+### 3. Research for finding shortest path using parallel algorithm with massive amount of data(Parallel_algorithm_topN_part.pdf)
 * this project created using C++
 * do tons of reaserch for parallel and shortest path algorithm
 * write a paper for it
@@ -37,7 +36,7 @@ Anyway enjoy your journey!
 * made in 2019.02
 
 
-### 4. Build a computer system for education company
+### 4. Build a computer system for education company(education-system)
 * this project created using PHP codeigniter
 * include homepage and intranet
 * 2 developers participated
@@ -45,7 +44,7 @@ Anyway enjoy your journey!
 * made in 2019.12
 
 
-### 5. Laundry app for O2O service
+### 5. Laundry app for O2O service(020service_app)
 * this project created using Xamarin Android
 * include real time service function
 * 1 developers participated
