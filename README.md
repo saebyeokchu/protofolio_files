@@ -1,5 +1,11 @@
 # portofoilos list
 
+Hi, its such a honor for you visiting my github! You can take your time for a look. I am Web,App,System devloper and database architecture. Yeah i did a lot.
+But the most loved job for me is structuring database for system!
+My latest favorite lanugage to use is Ruby and C#.
+FYI, I fell in love with Ruby on Rails recently.
+Anyway enjoy your journey!
+
 > The lists which written below are my projects that might be help you understand what can i do for you
 > Currently, i'm making my homepage to version of Ruby. You can see detail of my work over there.
 > I will update the address as soon as after i finish the reparing.
