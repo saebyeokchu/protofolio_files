@@ -1,0 +1,54 @@
+
+
+
+    <!--div *ngIf="loginService.user | async as user">
+    <h1>My information</h1>
+    <p>email : {{user.email}}</p>
+    <p>uid : {{user.uid}}</p>
+    <p>nickname : {{user.nickname}}</p>
+    <p>age : {{user.age}}</p-->
+
+    <div *ngIf="loginService.user | async as user"> 
+            <h2>Edit nickname&age</h2>
+            <div>
+              <label> nickname:
+                <input id="nickname" [value]='user.nickname' placeholder="nickname">
+              </label>
+            </div>
+            <div>
+              <label> age:
+                  <input  id="age" [value]='user.age' placeholder="age">
+                </label>
+              </div>
+              <input  id="uid" type="hidden" [value]='user.uid' >
+        <button routerLink="/mypage" (click)="edit()"> Edit </button>
+    </div>
+          
+
+    <h2>Liked heroes</h2>
+    <div class="example-container mat-elevation-z8">
+    <table mat-table #table [dataSource]="likes">
+  
+
+      <ng-container matColumnDef="HeroName">
+        <th mat-header-cell *matHeaderCellDef> Hero Name </th>
+        <td mat-cell *matCellDef="let element"> {{element.LikedName}} </td>
+      </ng-container>
+      
+      <ng-container matColumnDef="LikedTime">
+        <th mat-header-cell *matHeaderCellDef> Liked Time </th>
+        <td mat-cell *matCellDef="let element"> {{element.LikedTime}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="LikedDate">
+        <th mat-header-cell *matHeaderCellDef> Liked Date </th>
+        <td mat-cell *matCellDef="let element"> {{element.LikedDate}} </td>
+      </ng-container>
+  
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+  
+    

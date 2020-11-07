@@ -1,0 +1,34 @@
+<!--class="grid grid-pad"  class="col-1-4"-->
+<!--a *ngFor="let hero of heroes"  routerLink = "/detail/{{hero.id}}" class="col-1-4" -->
+
+
+<div class="addButton"><a routerLink = "/add" ><button mat-button class="clear">add</button></a></div>
+
+
+<div class = "flex-container">
+  <div *ngFor="let hero of heroes" >
+  
+      <mat-card class="example-card" >
+          <mat-card-header>
+            <mat-card-title>{{hero.name}}</mat-card-title>
+            <mat-card-subtitle>{{hero.subtitle}}</mat-card-subtitle>
+          </mat-card-header>
+            <input type='hidden'>
+            <img mat-card-image src='{{hero.imgURL}}'>
+          <mat-card-content>
+            <p>
+                {{hero.content}}
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+              <a routerLink = "/detail/{{hero.id}}" > <button mat-button (click)="editHero(hero)" >edit</button> </a>
+              <a > <button mat-button (click)="deleteHero(hero)" >delete</button> </a>
+              <button  mat-button *ngIf = "messageService.loginMessages == 'Log Out'"
+                        (click)="likeInfo(hero)" >LIKE</button>
+          </mat-card-actions>
+      </mat-card>
+  </div> 
+</div> 
+
+
+      

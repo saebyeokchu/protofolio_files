@@ -1,0 +1,31 @@
+import {Hero} from './hero';
+
+export const HEROES : Hero[] = [
+    { id: '11', name: 'Mr. Nice', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior', 
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '13', name: 'Bombasto', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior',
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '14', name: 'Celeritas', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior' ,
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '15', name: 'Magneta', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior' ,
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '16', name: 'RubberMan', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior' ,
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '17', name: 'Dynama', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior' ,
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '18', name: 'Dr IQ', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior' ,
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '19', name: 'Magma', subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior' ,
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'},
+    { id: '20', name: 'Tornado' , subtitle : 'the great' , 
+    content : 'Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior',
+    imgURL : 'https://firebasestorage.googleapis.com/v0/b/final-1fc3c.appspot.com/o/siba.png?alt=media&token=a60b27dd-f265-4b8d-b4fd-e5c854d58382'}
+] ; 
