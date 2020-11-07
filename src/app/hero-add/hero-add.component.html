@@ -1,0 +1,20 @@
+
+  <h2>Add Hero</h2>
+  <div>
+    <label> name:
+      <input #name placeholder="name">
+    </label>
+  </div>
+  <div>
+    <label> subtitle:
+        <input #subtitle placeholder="subtitle">
+      </label>
+    </div>
+  <div>
+     <label> content:
+          <textarea #content placeholder="content"></textarea>
+      </label>
+  </div>
+
+  <button (click)="addHero(name.value,subtitle.value,content.value)" routerLink="/dashboard">Add Hero </button>
+  <button (click)="goBack()">go back</button>

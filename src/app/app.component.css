@@ -1,0 +1,76 @@
+.flex-container {
+  display: flex;
+
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+
+
+
+.mainBox {
+
+    width : 50%;
+   font-size: 40px;
+   margin-left : 25%;
+   margin-top : 20%;
+  
+  }
+  
+  .border {
+     background-color: cornflowerblue;
+  }
+  
+  
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin-top:3%;
+    margin-left : 32%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  /* AppComponent's private CSS styles */
+h1 {
+  font-size: 1.2em;
+  color: #999;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  /*background-color: #eee;*/
+  border-radius: 4px;
+}
+nav a:visited, a:link {
+  color: white;
+  /*color: #607D8B;
+  white*/
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}

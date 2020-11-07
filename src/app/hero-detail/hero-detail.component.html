@@ -1,0 +1,69 @@
+<div *ngFor = "let hero of heroes">
+  <div *ngIf = "hero.id == messageService.messages">
+
+  <h2>{{hero.name | uppercase}}</h2>
+  <div><span>id:</span>{{hero.id}}</div>
+  <div>
+    <label> name:
+      <input id="editName" value= "{{hero.name}}" placeholder="name" />
+    </label>
+  </div>
+  <div>
+    <label> subtitle:
+        <input id="editSubtitle" value= "{{hero.subtitle}}" placeholder="subtitle"/>
+      </label>
+    </div>
+  <div>
+     <label> content:
+          <textarea id="editContent" value = "{{hero.content}}" placeholder="content"></textarea>
+      </label>
+  </div>
+  <div>
+      <label> imgURL:
+           <input id="editImgURL" class = "img" value = "{{hero.imgURL}}" placeholder="img"/>
+       </label>
+
+   </div>
+   <div>
+    <label>  <span>Upload Image: </span>
+        <input type="file" (change) ="upload($event,hero.id)" accept=".png,.jpg" >
+    </label>
+    <mat-progress-bar mode="determinate" [value]="uploadProgress"></mat-progress-bar>
+  </div>
+
+  </div>
+</div>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>  
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>  
+</div>
+
+<div class="flex-container">
+  <div *ngFor="let item of items; let i = index">{{i}}</div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>  
+  <div>4</div>
+  <div>5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>  
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>  
+</div>
+
+  <button (click)="editHero()" routerLink="/dashboard" >edit hero</button>
+  <button (click)="goBack()">go back</button>
